@@ -288,11 +288,14 @@ h3:hover{
     height: 30px;
     background-color: aliceblue;
     text-align: center;
-    display: flex;
+      display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid rgb(130, 5, 5);
 }
 h4{
     margin: 0px;
-    align-items: center;
+   font-size: 20px;
+   text-transform: capitalize;
+
 }
