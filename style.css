@@ -98,3 +98,15 @@ header{
     transform: rotate(-45deg);
     background-color: rgb(130, 5, 5);
 }
+.saidbar{
+    height: 40%;
+    width: 200px;
+    background-color: black;
+   margin-top: 62px;
+   border-radius: 0px 0px 10px 0px;
+   box-shadow: 0px 1px 0px .5px rgb(130, 5, 5);
+   transform: translate(-200px);
+}
+.check:checked ~ .saidbar{
+    transform: translate(0);
+}
