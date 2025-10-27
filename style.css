@@ -67,6 +67,8 @@ header{
 .toggle .bottom_line{
     top:60%;
     left: 0%;
+    transition: translate(-50%, -50%);
+
 }
 
 .check :checked ~ .toggle.top_line{
