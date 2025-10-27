@@ -112,3 +112,6 @@ header{
 .check:checked ~ .saidbar{
     transform: translateX(0);
 }
+.menu{
+    height: 200px;
+}
