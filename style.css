@@ -125,11 +125,15 @@ header{
 ul{
     margin: 0px;
     padding: 0;
+   display: block;
+  
 
 }
 li{
     list-style: none;
     margin-bottom: 10px;
+   border-bottom: 1px solid rgb(136, 131, 131);
+   border-bottom-width:100% ;
 
 }
 a{
@@ -137,5 +141,5 @@ a{
     font-size: 20px;
     text-transform: capitalize;
     color: rgb(0, 0, 0);
-    
+   
 }
