@@ -118,4 +118,15 @@ header{
     background-color: aliceblue;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0px;
+
+}
+ul{
+    margin: 0px;
+    padding: 0;
+
+}
+li{
+    list-style: none;
 }
