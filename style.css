@@ -129,10 +129,13 @@ ul{
 }
 li{
     list-style: none;
+    margin-bottom: 10px;
 
 }
 a{
     text-decoration: none;
     font-size: 20px;
     text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    
 }
