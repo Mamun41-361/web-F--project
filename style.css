@@ -90,5 +90,5 @@ header{
      left: 2px;
     top: 14px;
     width: 25px;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
 }
