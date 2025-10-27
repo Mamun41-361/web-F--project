@@ -233,7 +233,7 @@ h2{
 }
 .bear{
     width:100% ;
-    height: 250px;
+    height: 300px;
   background-color: aliceblue;
    overflow: hidden;
  text-align: center;
@@ -248,13 +248,35 @@ img{
     border-radius: 5px ;
 }
 
-.hov{
-    overflow: hidden;
-    width: 92%;
-    height:150px;
 
-}
 p{
     text-align: left;
     margin-left: 10px;
+}
+
+h3{
+    margin: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 2px solid rgb(131, 5, 5);
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+   
+}
+h3:hover{
+    color: rgb(131, 5, 5);
+    transition: 0.5s ease;
+}
+.sections{
+    height:70% ;
+    width: 100%;
+   
+}
+
+.foter{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
 }
