@@ -18,14 +18,20 @@ header{
     height: 100px;
     width: 100%;
     margin: 0px;
+
 }
+/*----------------------------------------brand name---------------------*/
+
+
 .name{
     
- display: flex;
+display: flex;
+ text-align: center;
  justify-content: center;
  margin: 0;
    
     }
+    /*------------------------------------------chek.toggle----------------*/
 .check{
     display: none;
     visibility: hidden;
@@ -98,6 +104,7 @@ header{
     transform: rotate(-45deg);
     background-color: rgb(130, 5, 5);
 }
+/*------------------------------------------------saidbar---------------------------------*/
 .saidbar{
     height: 60%;
     width: 200px;
@@ -168,6 +175,7 @@ a{
  
    
 }
+/*-----------------------------------submenu------------------------------*/
 .submenu{
     margin: 0;
     padding: 0;
