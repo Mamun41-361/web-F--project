@@ -21,13 +21,71 @@ header{
 }
 .name{
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
+ display: flex;
+ justify-content: center;
+ margin: 0;
+   
+    }
 .check{
     display: none;
     visibility: hidden;
    
+}
+.toggle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: 0;
+    overflow: hidden;
+}
+.toggle .common{
+
+    position: absolute;
+    height: 3px;
+    width: 48px;
+    background-color: brown;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    
+
+}
+.toggle .top_line{
+
+    top:0%;
+     left: 0%;
+
+}
+
+.toggle .mid_line{
+    top:30%;
+    left: 0%;
+    transform: translate(-50% -50%);
+}
+.toggle .bottom_line{
+    top:60%;
+    left: 0%;
+}
+
+.check :checked ~ .toggle.top_line{
+
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+.check :checked ~ .toggle.mid_line{
+
+    opacity: 0;
+    transform: translateX(20px);
+
+
+}
+.check :checked ~ .toggle.bottom_line{
+     left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
 }
