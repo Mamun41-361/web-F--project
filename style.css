@@ -55,6 +55,7 @@ header{
 
     top:50%;
      left: 10%;
+      transition: translate(-50%,-50%);
 
 }
 
