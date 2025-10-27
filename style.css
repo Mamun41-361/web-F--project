@@ -230,6 +230,7 @@ h2{
     margin-left: 20px;
     margin-top: 10px;
     text-decoration: underline solid rgb(130, 5, 5);
+    text-transform: capitalize;
 }
 .bear{
     width:100% ;
@@ -263,6 +264,7 @@ h3{
     height: 20px;
     width: 60px;
     border-radius: 5px;
+    cursor: pointer;
    
 }
 h3:hover{
