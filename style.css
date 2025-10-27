@@ -18,23 +18,29 @@ header{
     height: 100px;
     width: 100%;
     margin: 0px;
+   
+   
+  
 
 }
 /*----------------------------------------brand name---------------------*/
 
 
-.name{
+ .name{
     
 display: flex;
  text-align: center;
- justify-content: center;
- margin: 0;
-   
+margin: 0;
+padding: 0;
+justify-content: center;
+align-items: center;
+
     }
     /*------------------------------------------chek.toggle----------------*/
 .check{
     display: none;
     visibility: hidden;
+    
 }
 .toggle{
     position: absolute;
@@ -106,16 +112,19 @@ display: flex;
 }
 /*------------------------------------------------saidbar---------------------------------*/
 .saidbar{
-    height: 60%;
-    width: 200px;
+    height: 80%;
+    width: 300px;
     background-color: rgb(199, 196, 196);
    margin-top: 62px;
    border-radius: 0px 0px 10px 0px;
    box-shadow: 0px 1px 0px .5px rgb(130, 5, 5);
-   transform: translateX(-200px);
+   transform: translateX(-400px);
    transition: transform 0.3s ease;
    position: absolute;
-   overflow-y: scroll hidden;
+   overflow: hidden;
+  overflow-y: scroll;
+  
+ 
 }
 .check:checked ~ .saidbar{
     transform: translateX(0);
@@ -145,7 +154,9 @@ ul{
     height: 100%;
     display: block;
     text-align: center;
-    margin-top: 50%;
+ justify-content: center;
+    overflow: hidden;
+   
  
   
   
@@ -186,6 +197,7 @@ a{
     width: 100%;
     margin-left: 20px;
     transition: transform 0.3s ease;
+   
 }
 .submenu ul{
    margin: 0px;
@@ -207,4 +219,34 @@ a{
     color: brown;
     transition: transform 0.5s ease;
 }
+.Anteinterdum{
+    width: 100%;
+    height: 60%;
+    background-color: blue;
+    margin-top: 10px;
+}
 
+h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline solid rgb(130, 5, 5);
+}
+.bear{
+    width:100% ;
+    height: 250px;
+   background-color: aliceblue;
+   overflow: hidden;
+ text-align: center;
+ border-bottom: 1px solid black;
+}
+
+img{
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 5px ;
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+}
