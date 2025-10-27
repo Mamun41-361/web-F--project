@@ -122,11 +122,13 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 0px;
+  
    
 
 }
 .menu:hover{
   height: 300px;
+  transition: transform 0.3s ease;
    
 }
 ul{
@@ -137,6 +139,7 @@ ul{
     display: block;
     text-align: center;
     margin-top: 50%;
+ 
   
   
 
@@ -146,6 +149,7 @@ li{
     margin-bottom: 10px;
     position: relative;
     display: block;
+  transition: transform 0.3s ease;
     
     
    
@@ -173,6 +177,7 @@ a{
     height: 130px;
     width: 100%;
     margin-left: 20px;
+    transition: transform 0.3s ease;
 }
 .submenu ul{
    margin: 0px;
@@ -192,5 +197,6 @@ a{
 
 .submenu ul li a:hover{
     color: brown;
+    transition: transform 0.5s ease;
 }
 
