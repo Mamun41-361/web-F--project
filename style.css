@@ -272,13 +272,13 @@ h3:hover{
     transition: 0.5s ease;
 }
 .sections{
-    height:70% ;
+    height:60% ;
     width: 100%;
    
 }
 
 .foter{
-    height: 100px;
+    height:auto;
     width: 100%;
     background-color: aquamarine;
     display: flex;
@@ -297,5 +297,31 @@ h4{
     margin: 0px;
    font-size: 20px;
    text-transform: capitalize;
+
+}
+.email{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.text{
+ text-transform: capitalize;
+    font-size:18px ;
+}
+.mail{
+    font-size: 20px;
+    color: rgb(130, 5, 5);
+    cursor: pointer;
+}
+.ad{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
 
 }
