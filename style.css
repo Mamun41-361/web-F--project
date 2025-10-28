@@ -304,7 +304,7 @@ h4{
 
 }
 .touch{
-    width: 33%;
+    width: 30%;
     height: auto;
     margin-left: 20px;
 }
@@ -315,7 +315,7 @@ h4{
 }
 
 .ad{
-    width: 33%;
+    width: 30%;
     height:auto;
     display: flex;
     justify-content: center;
@@ -370,7 +370,7 @@ h5{
 
 }
 .icon{
-    width: 33%;
+    width: 30%;
     height: auto;
     text-align: end;
     display: flex;
