@@ -360,6 +360,15 @@ h5{
 
 
 }
+.emails .mail{
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.emails .mail i:hover{
+    color: rgb(130, 5, 5);
+
+}
 .icon{
     width: 33%;
     height: auto;
