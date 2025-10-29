@@ -47,6 +47,40 @@ align-items: center;
     margin: 0;
     padding: 0;
 }
+.home{
+    width:100%;
+    height: 50%;
+    align-items: center;
+    
+}
+.pict{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 18%;
+    box-sizing: border-box;
+    
+}
+.hh{
+    font-size: 20px;
+    margin-left: 25px;
+    color: rgb(130, 5, 5);
+}
+    
+strong{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+   
+}
+.pp{
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
 
 
     /*-----------------------------------------Section main---------------------------*/
