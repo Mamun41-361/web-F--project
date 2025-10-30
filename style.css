@@ -22,26 +22,15 @@ header{
     height: 100px;
     width: 100%;
     margin: 0px;
-   
-   
-  
-
-}
-
-
-
- .name{
     
-display: flex;
- text-align: center;
-margin: 0;
-padding: 0;
-justify-content: center;
-align-items: center;
+}
+ .name{
+    margin: 0;
+    text-align:center;
 
-    }
-    /*------------------------------------------chek.toggle----------------*/
+ }
 
+   
 
 .sections{
     width: 100%;
@@ -96,7 +85,7 @@ strong{
     position: absolute;
     height: 50px;
     width: 50px;
-    z-index: 1;
+    z-index: 11;
     margin-left: 50px;
     margin-top: 0;
     overflow: hidden;
