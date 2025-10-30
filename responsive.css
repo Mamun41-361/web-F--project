@@ -12,6 +12,10 @@
     height: auto;
     display: flex;
    flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
   
  }
 }
@@ -21,6 +25,7 @@
     width: 100%;
     height: auto;
     margin-left: 0px;
+    
 }
 }
 
@@ -38,6 +43,7 @@
         width: 100%;
         height: auto;
         align-items: center;
-         margin-left: 0px;
+         margin-top: 50px;
+         margin-bottom: 50px;
     }
 }
