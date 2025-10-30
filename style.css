@@ -75,7 +75,7 @@ strong{
 }
 
 
-    /*-----------------------------------------Section main---------------------------*/
+    
 .check{
     display: none;
     visibility: hidden;
@@ -195,6 +195,7 @@ ul{
     text-align: center;
  justify-content: center;
     overflow: hidden;
+    margin-top: 20px;
    
  
   
@@ -223,6 +224,23 @@ a{
     color: rgb(0, 0, 0);
    
  
+   
+}
+h3{
+    margin: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 2px solid rgb(131, 5, 5);
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+h3:hover{
+    color: rgb(131, 5, 5);
+    transition: 0.5s ease;
    
 }
 /*-----------------------------------submenu------------------------------*/
@@ -281,6 +299,19 @@ h2{
  margin-top: 20px;
 }
 
+
+
+/*-----------------------------------------Section main---------------------------*/
+.sections{
+    height:60% ;
+    width: 100%;
+   
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+   
+}
 img{
     width: 90%;
     height: 150px;
@@ -289,32 +320,6 @@ img{
 }
 
 
-p{
-    text-align: left;
-    margin-left: 10px;
-}
-
-h3{
-    margin: 5px;
-    padding: 5px;
-    text-transform: capitalize;
-    font-size: 20px;
-    border: 2px solid rgb(131, 5, 5);
-    height: 20px;
-    width: 60px;
-    border-radius: 5px;
-    cursor: pointer;
-   
-}
-h3:hover{
-    color: rgb(131, 5, 5);
-    transition: 0.5s ease;
-}
-.sections{
-    height:60% ;
-    width: 100%;
-   
-}
 /*------------------------------------------------FOTER SECTION---------------------------*/
 .foter{
     height:auto;
