@@ -1,4 +1,6 @@
-** ::before *::after{
+*,
+ * ::before
+  *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -438,8 +440,33 @@ h5{
    cursor: pointer;
 }
 
-@media all  and ( min-width:700px ) {
+@media all  and (min-width:700px) and (max-width:800px) {
     body{
         color:red;
     }
+}
+@media  (max-width:500px){
+ .foter{
+    width: 100%;
+    height: auto;
+    display: flex;
+   flex-direction: column;
+   color: aliceblue;
+ }
+}
+
+@media (max-width:500px){
+    .touch{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+}
+
+@media(max-width:500px){
+    .ad{
+    width: 100%;
+    height:500px;
+    
+}
 }
